@@ -1,0 +1,24 @@
+{
+  "platforms": {
+
+    "shopify": {
+
+      "catalog": "/catalog",
+      "cart": "/cart",
+      "checkout": "/checkout",
+      "payment": "/pay",
+      "shopify_checkout": "/shopify-checkout",
+      "recommendation": "/recommendation"
+
+    },
+
+    "hybris": {
+
+      "catalog": "/catalog",
+      "cart": "/cart",
+      "checkout": "/checkout",
+      "payment": "/pay"
+
+    }
+  }
+}
