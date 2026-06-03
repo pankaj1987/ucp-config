@@ -1,6 +1,6 @@
 {
   "platforms": {
-"REMOTE_TEST": "GITHUB_WORKING",
+
     "shopify": {
 
       "catalog": "/catalog",
