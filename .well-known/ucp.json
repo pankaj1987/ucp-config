@@ -1,24 +1,43 @@
 {
-  "platforms": {
+  "capabilities": {
 
-    "shopify": {
+    "search_products": [
+      {
+        "provider": "shopify",
+        "priority": 100
+      },
+      {
+        "provider": "hybris",
+        "priority": 90
+      }
+    ],
 
-      "catalog": "/catalog",
-      "cart": "/cart",
-      "checkout": "/checkout",
-      "payment": "/pay",
-      "shopify_checkout": "/shopify-checkout",
-      "recommendation": "/recommendation"
+    "add_to_cart": [
+      {
+        "provider": "shopify",
+        "priority": 100
+      }
+    ],
 
-    },
+    "checkout": [
+      {
+        "provider": "shopify",
+        "priority": 100
+      }
+    ],
 
-    "hybris": {
+    "payment_wallet": [
+      {
+        "provider": "wallet",
+        "priority": 100
+      }
+    ],
 
-      "catalog": "/catalog",
-      "cart": "/cart",
-      "checkout": "/checkout",
-      "payment": "/pay"
-
-    }
+    "payment_shopify": [
+      {
+        "provider": "shopify",
+        "priority": 100
+      }
+    ]
   }
 }
