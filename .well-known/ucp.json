@@ -25,11 +25,11 @@
 
     "checkout": [
       {
-        "provider": "hybris",
+        "provider": "shopify",
         "priority": 100
       },
       {
-        "provider": "shopify",
+        "provider": "hybris",
         "priority": 90
       }
     ],
